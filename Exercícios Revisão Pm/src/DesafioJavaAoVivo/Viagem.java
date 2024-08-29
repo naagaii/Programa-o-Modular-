@@ -1,4 +1,4 @@
-package DesafioJavaAoVivo;
+
 import java.util.Scanner;
 
 public class Viagem {
