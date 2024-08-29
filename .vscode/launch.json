@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AloPadawan",
+            "request": "launch",
+            "mainClass": "AloPadawan",
+            "projectName": "Programacao-Modular_daeeb6ce"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Programacao-Modular_daeeb6ce"
+        },
+        {
+            "type": "java",
+            "name": "CalculaImposto",
+            "request": "launch",
+            "mainClass": "CalculaImposto",
+            "projectName": "Programacao-Modular_daeeb6ce"
+        },
+        {
+            "type": "java",
+            "name": "ComparacaoArquivos",
+            "request": "launch",
+            "mainClass": "ComparaArquivos.ComparacaoArquivos",
+            "projectName": "Programacao-Modular_daeeb6ce"
+        },
+        {
+            "type": "java",
+            "name": "ConversaoTemperatura",
+            "request": "launch",
+            "mainClass": "ConversaoTemperatura",
+            "projectName": "Programacao-Modular_daeeb6ce"
+        },
+        {
+            "type": "java",
+            "name": "Exercício01Lista",
+            "request": "launch",
+            "mainClass": "Exercício01Lista",
+            "projectName": "Programacao-Modular_daeeb6ce"
+        },
+        {
+            "type": "java",
+            "name": "Exercício06Lista",
+            "request": "launch",
+            "mainClass": "Exercício06Lista",
+            "projectName": "Programacao-Modular_daeeb6ce"
+        },
+        {
+            "type": "java",
+            "name": "Exercício08Lista",
+            "request": "launch",
+            "mainClass": "Exercício08Lista",
+            "projectName": "Programacao-Modular_daeeb6ce"
+        },
+        {
+            "type": "java",
+            "name": "GestaoLogistica",
+            "request": "launch",
+            "mainClass": "GestaoLogistica",
+            "projectName": "Programacao-Modular_daeeb6ce"
+        },
+        {
+            "type": "java",
+            "name": "MaiorDeTres",
+            "request": "launch",
+            "mainClass": "MaiorDeTres",
+            "projectName": "Programacao-Modular_daeeb6ce"
+        },
+        {
+            "type": "java",
+            "name": "RevProg",
+            "request": "launch",
+            "mainClass": "RevProg",
+            "projectName": "Programacao-Modular_daeeb6ce"
+        },
+        {
+            "type": "java",
+            "name": "Viagem",
+            "request": "launch",
+            "mainClass": "Viagem",
+            "projectName": "Programacao-Modular_daeeb6ce"
+        }
+    ]
+}
