@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConversaoTemperatura",
+            "request": "launch",
+            "mainClass": "ConversaoTemperatura",
+            "projectName": "Programacao-Modular_6d126de"
+        },
+        {
+            "type": "java",
+            "name": "Viagem",
+            "request": "launch",
+            "mainClass": "Viagem",
+            "projectName": "Programacao-Modular_6d126de"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Programacao-Modular_6d126de"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
