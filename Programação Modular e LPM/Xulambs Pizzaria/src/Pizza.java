@@ -21,6 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
  import java.text.NumberFormat;
 
  /** Classe Pizza para a Xulambs Pizza. Uma pizza tem um preço base e pode ter até 8 ingredientes adicionais. Cada ingrediente tem custo fixo.
@@ -50,12 +51,15 @@
          adicionarIngredientes(quantosAdicionais);
      }
  
+     private double valorAdicionais(){
+         return quantidadeIngredientes*VALOR_ADICIONAL;
+     }
      /**
       * Retorna o valor final da pizza, incluindo seus adicionais.
       * @return Double com o valor final da pizza.
       */
      public double valorFinal() {
-         return PRECO_BASE + quantidadeIngredientes*VALOR_ADICIONAL;
+         return PRECO_BASE + valorAdicionais();
      }
  
      /**
@@ -87,7 +91,10 @@
       */
      public String notaDeCompra() {
          NumberFormat moeda = NumberFormat.getCurrencyInstance();
-         return String.format("%s com %d ingredientes, no valor de $s", DESCRICAO, quantidadeIngredientes, moeda.format(valorFinal()));
+         return String.format("%s (%s) com %d ingredientes (%s), no valor de %s", 
+                                     DESCRICAO, moeda.format(PRECO_BASE), 
+                                     quantidadeIngredientes, moeda.format(valorAdicionais()), moeda.format(valorFinal()));
      }
  
  }
+ 
